@@ -1,0 +1,184 @@
+﻿
+> first-choice-care@0.1.0 dev
+> next dev
+
+Γû▓ Next.js 16.2.6 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.12.108:3000
+- Environments: .env.local
+Γ£ô Ready in 944ms
+
+node.exe : Γ¿» ./src/app/layout.tsx:16:30
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Γ¿» ./src/app/layout.tsx:16:30:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+  [90m14 |[0m ...
+  [90m15 |[0m ...
+[31m[1m>[0m [90m16 |[0m ...[33mder[0m = dynamic(() => 
+[36mimport[0m([32m"@/components/SmoothScrollProvider"[0m), { ssr: [36mfalse[0m })
+  [90m   |[0m          [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m17 |[0m ...namic(() => [36mimport[0m([32m"@/components/CustomCursor"[0m), { ssr: [36mfalse[0m })
+  [90m18 |[0m ...namic(() => [36mimport[0m([32m"@/components/GrainOverlay"[0m), { ssr: [36mfalse[0m })
+  [90m19 |[0m ...dynamic(() => [36mimport[0m([32m"@/components/IntroAnimation"[0m), { ssr: [36mfalse[0m })
+
+Ecmascript file had an error
+
+
+
+./src/app/layout.tsx:17:22
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+  [90m15 |[0m ...
+  [90m16 |[0m ...[33mhScrollProvider[0m = dynamic(() => 
+[36mimport[0m([32m"@/components/SmoothScrollProvider"[0m), { ssr: [36mfal..[0m.
+[31m[1m>[0m [90m17 |[0m ...[33mmCursor[0m = dynamic(() => 
+[36mimport[0m([32m"@/components/CustomCursor"[0m), { ssr: [36mfalse[0m })
+  [90m   |[0m              [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m18 |[0m ...[33mOverlay[0m = dynamic(() => [36mimport[0m([32m"@/components/GrainOverlay"[0m), { ssr: 
+[36mfalse[0m })
+  [90m19 |[0m ...[33mAnimation[0m = dynamic(() => [36mimport[0m([32m"@/components/IntroAnimation"[0m), { ssr: 
+[36mfalse[0m })
+  [90m20 |[0m ...
+
+Ecmascript file had an error
+
+
+
+./src/app/layout.tsx:18:22
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+  [90m16 |[0m ...[33mhScrollProvider[0m = dynamic(() => 
+[36mimport[0m([32m"@/components/SmoothScrollProvider"[0m), { ssr: [36mfal..[0m.
+  [90m17 |[0m ...[33mmCursor[0m = dynamic(() => [36mimport[0m([32m"@/components/CustomCursor"[0m), { ssr: 
+[36mfalse[0m })
+[31m[1m>[0m [90m18 |[0m ...[33mOverlay[0m = dynamic(() => 
+[36mimport[0m([32m"@/components/GrainOverlay"[0m), { ssr: [36mfalse[0m })
+  [90m   |[0m              [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m19 |[0m ...[33mAnimation[0m = dynamic(() => [36mimport[0m([32m"@/components/IntroAnimation"[0m), { ssr: 
+[36mfalse[0m })
+  [90m20 |[0m ...
+  [90m21 |[0m ...[36mt[0m metadata: [33mMetadata[0m = {
+
+Ecmascript file had an error
+
+
+
+./src/app/layout.tsx:19:24
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+  [90m17 |[0m [36mconst[0m [33mCustomCursor[0m = dynamic(() => 
+[36mimport[0m([32m"@/components/CustomCursor"[0m), { ssr: [36mfalse[0m })
+  [90m18 |[0m [36mconst[0m [33mGrainOverlay[0m = dynamic(() => 
+[36mimport[0m([32m"@/components/GrainOverlay"[0m), { ssr: [36mfalse[0m })
+[31m[1m>[0m [90m19 |[0m [36mconst[0m [33mIntroAnimation[0m = dynamic(() => 
+[36mimport[0m([32m"@/components/IntroAnimation"[0m), { ssr: [36mfalse[0m })
+  [90m   |[0m                        
+[31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m20 |[0m
+  [90m21 |[0m [36mexport[0m [36mconst[0m metadata: [33mMetadata[0m = {
+  [90m22 |[0m   title: [32m"First Choice Care | Atlanta Home Health"[0m,
+
+Ecmascript file had an error
+
+
+ GET / 500 in 596ms (next.js: 350ms, application-code: 246ms)
+Γ£ô Compiled in 1147ms
+ GET / 200 in 763ms (next.js: 309ms, application-code: 454ms)
+ GET / 200 in 410ms (next.js: 79ms, application-code: 331ms)
+ GET / 200 in 1012ms (next.js: 26ms, application-code: 986ms)
+ GET / 200 in 912ms (next.js: 16ms, application-code: 896ms)
+ GET / 200 in 814ms (next.js: 54ms, application-code: 760ms)
+ GET / 200 in 821ms (next.js: 208ms, application-code: 613ms)
+ GET / 200 in 823ms (next.js: 321ms, application-code: 502ms)
+ GET / 200 in 656ms (next.js: 308ms, application-code: 348ms)
+ GET / 200 in 244ms (next.js: 14ms, application-code: 230ms)
+ GET / 200 in 135ms (next.js: 18ms, application-code: 117ms)
+ GET / 200 in 343ms (next.js: 12ms, application-code: 331ms)
+ GET / 200 in 831ms (next.js: 25ms, application-code: 806ms)
+ GET / 200 in 761ms (next.js: 320ms, application-code: 441ms)
+ GET / 200 in 767ms (next.js: 241ms, application-code: 525ms)
+ GET / 200 in 782ms (next.js: 35ms, application-code: 747ms)
+ GET / 200 in 786ms (next.js: 448ms, application-code: 338ms)
+ GET / 200 in 290ms (next.js: 29ms, application-code: 261ms)
+ GET / 200 in 987ms (next.js: 21ms, application-code: 966ms)
+ GET / 200 in 1813ms (next.js: 14ms, application-code: 1798ms)
+ GET / 200 in 1814ms (next.js: 92ms, application-code: 1722ms)
+ GET / 200 in 1935ms (next.js: 175ms, application-code: 1760ms)
+ GET / 200 in 1950ms (next.js: 282ms, application-code: 1668ms)
+ GET / 200 in 1401ms (next.js: 38ms, application-code: 1363ms)
+ GET / 200 in 262ms (next.js: 148ms, application-code: 114ms)
+ GET / 200 in 503ms (next.js: 50ms, application-code: 453ms)
+ GET / 200 in 1703ms (next.js: 134ms, application-code: 1569ms)
+ GET / 200 in 204ms (next.js: 5ms, application-code: 200ms)
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This 
+won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
++                         className="geist_a71539c9-module__T19VSG__variable 
+geist_mono_8d43a2aa-module__8Li5zG__varia..."
+-                         className="geist_a71539c9-module__T19VSG__variable 
+geist_mono_8d43a2aa-module__8Li5zG__varia..."
+-                         data-js-focus-visible=""
+                        >
+                  ...
+ 
+    at <unknown> (file://C:/Users/allen/Agentic workflow 
+2/first-choice-care/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:3439:25)
+    at runWithFiberInDEV (file://C:/Users/allen/Agentic workflow 
+2/first-choice-care/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:965:74)
+    at emitPendingHydrationWarnings (file://C:/Users/allen/Agentic workflow 
+2/first-choice-care/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:3438:13)
+    at completeWork (file://C:/Users/allen/Agentic workflow 
+2/first-choice-care/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:6885:102)
+    at runWithFiberInDEV (file://C:/Users/allen/Agentic workflow 
+2/first-choice-care/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:965:131)
+    at completeUnitOfWork (file://C:/Users/allen/Agentic workflow 
+2/first-choice-care/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9622:23)
+    at performUnitOfWork (file://C:/Users/allen/Agentic workflow 
+2/first-choice-care/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9557:28)
+    at workLoopConcurrentByScheduler (file://C:/Users/allen/Agentic workflow 
+2/first-choice-care/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9551:58)
+    at renderRootConcurrent (file://C:/Users/allen/Agentic workflow 
+2/first-choice-care/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9534:71)
+    at performWorkOnRoot (file://C:/Users/allen/Agentic workflow 
+2/first-choice-care/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9061:150)
+    at performWorkOnRootViaSchedulerTask (file://C:/Users/allen/Agentic workflow 
+2/first-choice-care/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:10255:9)
+    at MessagePort.performWorkUntilDeadline (file://C:/Users/allen/Agentic workflow 
+2/first-choice-care/.next/dev/static/chunks/node_modules_next_dist_compiled_0rpq4pf._.js:2647:64) 
+(file://C:/Users/allen/Agentic workflow 
+2/first-choice-care/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:3439:25)
+[browser] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. (file://C:/Users/allen/Agentic 
+workflow 2/first-choice-care/.next/dev/static/chunks/node_modules_next_dist_115brz8._.js:2477:13)
+[?25h
